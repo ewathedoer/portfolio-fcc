@@ -1,0 +1,1 @@
+// The main JS for Portfolio Free Code Camp project
