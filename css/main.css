@@ -1,4 +1,59 @@
-/* The main CSS for Portfolio Free Code Camp project */
+/* The main CSS for Portfolio Free Code Camp project 
+Main color source: https://www.google.com/design/spec/style/color.html#color-color-palette
+Color palette: 
+.dark-primary-color    { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #009688; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+*/
 html {
     font-family: 'Roboto', sans-serif;
+}
+.screen {
+    height: 100vh;
+    padding-top: 60px;
+}
+body { 
+    position: relative;
+}
+.navbar {
+    background-color: #00BCD4;
+}
+.navbar-default .navbar-brand {
+    color: #727272;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+.navbar-default.navbar-toggle {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #0097A7;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #B2EBF2;
+    background-color: transparent;
+} 
+.mobile-menu {
+    color: #FFF;
+}
+footer {
+    background-color: #0097A7;
+    height: 200px;
+}
+/* Media Queries*/
+@media screen and (max-width: 767px) {
+    .collapse.navbar-collapse {
+        text-align: center;
+    }
 }
