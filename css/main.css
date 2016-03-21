@@ -9,16 +9,21 @@ Color palette:
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
+
+yellow #FFC107
+yellow bright focus #FFECB3;
 */
 .screen {
     height: 100vh;
     padding-top: 60px;
-    display: table;
 }
 .cell {
     display: table-cell;
     vertical-align: middle;
     position: relative;
+}
+.parent {
+    display: table;
 }
 body { 
     position: relative;
@@ -42,19 +47,25 @@ body {
     background-color: #0097A7;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #B2EBF2;
+    color: #FFC107;
     background-color: transparent;
 } 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #FFECB3;
+    background-color: transparent;
+}
+
 .mobile-menu {
     color: #FFF;
 }
 footer {
-    background-color: #0097A7;
-    height: 200px;
+    background-color: #212121;
+    height: 160px;
+    position: relative;
 }
 .subtitle {
     font-weight: 300;
@@ -66,22 +77,95 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
+h3 {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.divider {
+    background-color: #B6B6B6;
+    color: #FFF;
+    height: 200px;
+    font-size: 2em;
+    margin-top: 2em;
+}
+.divider > div {
+    height: 100%;
+}
+.divider .parent {
+    height: 100%;
+    width: 100%;
+}
+p {
+    font-size: 1.2em;
+}
 .profile-image {
     margin-bottom: 2em;
 }
 .bold {
     font-weight: 900;
 }
-
+#portfolio .parent {
+    height: 100%;
+    width: 100%;
+}
+.portfolio-element {
+    margin-top: 1em;
+}
+.green {
+    background: url(/images/procreative.png) no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.item-description {
+    background-color: #0097A7;
+    height: 300px;
+}
+.portfolio-element ul {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0 0;
+}
+.portfolio-element li {
+    color: #FFF;
+}
+.portfolio-element li.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 2em;
+}
+.portfolio-element li.project-description {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+#contact {
+    background: url(/images/EMW%20closeup%20small.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100% 0;
+}
+#portfolio > :first-child {
+    padding-top: 3em;
+}
+footer p {
+    color: #FAFAFA;
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+}
 
 /* Media Queries*/
 @media screen and (max-width: 767px) {
-    .collapse.navbar-collapse {
+    .navbar-collapse {
         text-align: center;
+    }
+    .divider {
+        height: 160px;
     }
 }
 @media screen and (min-width: 767px) {
     h1 {
         font-size: 3.7em;
+    }
+    .portfolio-element ul {
+        margin: 2em 3em 0;
     }
 }
