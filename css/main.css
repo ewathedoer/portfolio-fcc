@@ -60,7 +60,8 @@ footer {
     font-weight: 300;
 }
 h1 {
-    font-size: 1.7em;
+    font-size: 2em;
+    font-weight: 900;
 }
 h2 {
     font-size: 1.5em;
@@ -68,10 +69,19 @@ h2 {
 .profile-image {
     margin-bottom: 2em;
 }
+.bold {
+    font-weight: 900;
+}
+
 
 /* Media Queries*/
 @media screen and (max-width: 767px) {
     .collapse.navbar-collapse {
         text-align: center;
+    }
+}
+@media screen and (min-width: 767px) {
+    h1 {
+        font-size: 3.7em;
     }
 }
