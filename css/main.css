@@ -10,15 +10,20 @@ Color palette:
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
 */
-html {
-    font-family: 'Roboto', sans-serif;
-}
 .screen {
     height: 100vh;
     padding-top: 60px;
+    display: table;
+}
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
 }
 body { 
     position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 .navbar {
     background-color: #00BCD4;
@@ -51,6 +56,19 @@ footer {
     background-color: #0097A7;
     height: 200px;
 }
+.subtitle {
+    font-weight: 300;
+}
+h1 {
+    font-size: 1.7em;
+}
+h2 {
+    font-size: 1.5em;
+}
+.profile-image {
+    margin-bottom: 2em;
+}
+
 /* Media Queries*/
 @media screen and (max-width: 767px) {
     .collapse.navbar-collapse {
