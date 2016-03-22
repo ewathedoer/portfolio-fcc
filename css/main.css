@@ -151,6 +151,15 @@ footer p {
     bottom: 50px;
     right: 15px;
 }
+#social a.btn-default {
+   border-color: transparent;
+}
+#social > :nth-child(2) {
+    padding-top: 10em;
+}
+.btn-default:hover {
+    background-color: #FFECB3;
+}
 
 /* Media Queries*/
 @media screen and (max-width: 767px) {
