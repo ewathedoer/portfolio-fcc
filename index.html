@@ -40,7 +40,7 @@
 <!-- Here starts About part -->  
         <section id="about" class="row parent screen">
             <div class="cell">
-                <div class="col-xs-4 col-xs-offset-4">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
                     <img src="images/Ewa.jpeg" alt="the photo of Ewa (the doer)" class="img-responsive center-block img-circle profile-image">
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 text-center">
@@ -48,48 +48,88 @@
                         Ewa the doer
                     </h1>
                     <h2 class="subtitle">
-                        I am a <span class="bold">user-centered frontend developer</span>. I believe life is all about Experience. I am a fan of useful solutions.</br>I love collaborating with people who are on the same page and mission.
+                        I am a <span class="bold">user-centered frontend developer</span>. I believe life is all about Experience. I am a fan of useful solutions. I love collaborating with people who are on the same page and mission.
                     </h2>
                 </div>
             </div>
         </section>
 <!-- Here starts Social Media part -->  
-        <section id="social">
+        <section id="social" class="visible-xs-block">
             <div class="row text-center">
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-6">
                     <a class="btn btn-default" href="https://twitter.com/thedoerdoes" target="_blank" role="button">
                         <img src="/images/twitter-logo.png" alt="Twitter account" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-6">
                     <a class="btn btn-default" href="https://medium.com/@thedoer" target="_blank" role="button">
                         <img src="/images/medium-logo.png" alt="Medium account" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+            </div>
+            <div class="row text-center">
+                <div class="col-xs-6">
+                    <a class="btn btn-default" href="https://www.linkedin.com/in/ewathedoer" target="_blank" role="button">
+                        <img src="/images/linkedin-logo.png" alt="Linkedin account" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a class="btn btn-default" href="https://www.freecodecamp.com/ewathedoer" target="_blank" role="button">
+                        <img src="/images/fcc-logo.png" alt="Free Code Camp account" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xs-6">
+                    <a class="btn btn-default" href="https://github.com/ewathedoer" target="_blank" role="button">
+                        <img src="/images/github-logo.png" alt="Github account" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a class="btn btn-default" href="http://codepen.io/thedoer/" target="_blank" role="button">
+                        <img src="/images/codepen-logo.png" alt="Codepen account" class="img-responsive">
+                    </a>
+                </div>
+            </div>
+        </section>    
+    
+        <section id="social" class="hidden-xs">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <a class="btn btn-default" href="https://twitter.com/thedoerdoes" target="_blank" role="button">
+                        <img src="/images/twitter-logo.png" alt="Twitter account" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="btn btn-default" href="https://medium.com/@thedoer" target="_blank" role="button">
+                        <img src="/images/medium-logo.png" alt="Medium account" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-sm-4">
                     <a class="btn btn-default" href="https://www.linkedin.com/in/ewathedoer" target="_blank" role="button">
                         <img src="/images/linkedin-logo.png" alt="Linkedin account" class="img-responsive">
                     </a>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-sm-4">
                     <a class="btn btn-default" href="https://www.freecodecamp.com/ewathedoer" target="_blank" role="button">
                         <img src="/images/fcc-logo.png" alt="Free Code Camp account" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-sm-4">
                     <a class="btn btn-default" href="https://github.com/ewathedoer" target="_blank" role="button">
                         <img src="/images/github-logo.png" alt="Github account" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-sm-4">
                     <a class="btn btn-default" href="http://codepen.io/thedoer/" target="_blank" role="button">
                         <img src="/images/codepen-logo.png" alt="Codepen account" class="img-responsive">
                     </a>
                 </div>
             </div>
         </section>
+
 <!-- Here starts Portfolio part -->        
         <div class="row divider text-center">
             <div class="xs-col-12">
@@ -102,49 +142,61 @@
         </div>
         <section id="portfolio">
             <div class="row">
-                <div class="col-xs-12 col-md-5 col-md-offset-1 green portfolio-element"></div>
+                <div id="procreative" class="col-xs-12 col-md-5 col-md-offset-1 portfolio-element portfolio-image"></div>
                 <div class="col-xs-12 col-md-5 item-description portfolio-element">
                     <ul>
                         <li class="title">ProCreative</li>
                         <li class="project-description">
-                            My team's website. I designed and implemented it from scratch. The copy, cartoons, and movies are also my work. The project is built using Polymer framework.
+                            My team's website. I designed and implemented the whole idea from scratch. The copy, cartoons, and movies are also my work. The project is built using Polymer framework, CSS, HTML, Javascript, and jQuery.
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-5 col-md-offset-1 green portfolio-element"></div>
+                <div id="costa" class="col-xs-12 col-md-5 col-md-offset-1 portfolio-element portfolio-image"></div>
                 <div class="col-xs-12 col-md-5 item-description portfolio-element">
                     <ul>
                         <li class="title">Costa del Sol</li>
                         <li class="project-description">
-                            The landing website designed and implemented as an introduction to my tribute to Andalucia.
+                            The landing website designed and implemented serving as an introduction to my tribute to Andalucia, Spain. The page uses smooth scrolling and Google Maps integration. It is built with HTML, CSS, and Javascript.
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-5 col-md-offset-1 green portfolio-element"></div>
+                <div id="thedoer" class="col-xs-12 col-md-5 col-md-offset-1 portfolio-element portfolio-image"></div>
                 <div class="col-xs-12 col-md-5 item-description portfolio-element">
                     <ul>
                         <li class="title">The doer</li>
                         <li class="project-description">
-                            The personal website of a doer. The site serves as about page. Created from scratch.
+                            The personal website of a doer. The site serves as the about type of page. The copy differs depending on the device. This is another simple page built from scratch with Javascript, HTML, and CSS.
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-md-5 col-md-offset-1 green portfolio-element"></div>
+                <div id="tribute" class="col-xs-12 col-md-5 col-md-offset-1 portfolio-element portfolio-image"></div>
                 <div class="col-xs-12 col-md-5 item-description portfolio-element">
                     <ul>
                         <li class="title">Tribute (FCC project)</li>
                         <li class="project-description">
-                            The website designed and implemented during FCC course. Tribute page project.
+                            The website designed and implemented during FCC course according to tribute page project specification. It is built on Bootstrap. 
                         </li>
                     </ul>
                 </div>
             </div>
+            <div class="row">
+                <div id="portfolio-fcc" class="col-xs-12 col-md-5 col-md-offset-1 portfolio-element portfolio-image"></div>
+                <div class="col-xs-12 col-md-5 item-description portfolio-element">
+                    <ul>
+                        <li class="title">Portfolio (FCC project)</li>
+                        <li class="project-description">
+                            The website designed and implemented during FCC course according to portfolio page project specification. It is built on Bootstrap. This is the page you are currently on. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
             
         </section>
 <!-- Here starts Contact form part -->          
@@ -152,7 +204,7 @@
                 <div class="xs-col-12">
                     <div class="parent">
                         <h3 class="cell">
-                            Contact
+                            Get in touch
                         </h3>
                     </div>
                 </div>
