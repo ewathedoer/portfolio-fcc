@@ -13,6 +13,7 @@ Color palette:
 yellow #FFC107
 yellow bright focus #FFECB3;
 */
+
 .screen {
     height: 100vh;
     padding-top: 60px;
@@ -153,7 +154,7 @@ p {
     background: url(/images/tribute-big.png) no-repeat;
 }
 #portfolio-fcc {
-    background: url(/images/thedoer-big.png) no-repeat;
+    background: url(/images/portfolio-big.png) no-repeat;
 }
 #contact {
     background: url(/images/contact-photo.jpg) no-repeat;
@@ -179,6 +180,18 @@ footer p {
 .btn-default:hover,
 .btn-default:focus {
     background-color: #FFECB3;
+}
+a {
+    color: #FFECB3;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #FFC107;
+    text-decoration: none;
+}
+a:visited {
+    color: #B2EBF2;
 }
 
 /* Media Queries*/
