@@ -201,7 +201,7 @@
         </section>
 <!-- Here starts Contact form part -->          
         <div class="row divider text-center">
-                <div class="xs-col-12">
+                <div class="col-xs-12">
                     <div class="parent">
                         <h3 class="cell">
                             Get in touch
@@ -210,7 +210,21 @@
                 </div>
         </div>
         <section id="contact" class="row screen">
-            <div class="col-xs-12"></div>
+            <div id="contact-parent" class="parent col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-1">
+                <form class="cell">
+                    <div class="form-box">
+                        <div class="form-group">
+                            <label for="email-input">Email address</label>
+                            <input type="email" class="form-control" id="email-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your message to me</label>
+                            <textarea class="form-control" rows="5" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Send the message</button>
+                    </div>
+                </form>
+            </div>
         </section>
         
         <footer class="row">
