@@ -110,7 +110,7 @@ p {
 .portfolio-element {
     margin-top: 1em;
 }
-.portfolio-image {
+#portfolio .portfolio-image {
     background-size: cover;
     height: 300px;
 }
@@ -140,7 +140,6 @@ p {
 }
 #procreative {
     background: url(/images/procreative-big.png) no-repeat;
-    background-position: 50% 70%;
 }
 #costa {
     background: url(/images/costa-big.png) no-repeat;
