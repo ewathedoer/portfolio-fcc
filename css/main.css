@@ -200,7 +200,7 @@ label {
 }
 .contact-box {
     background-color: rgba(0, 151, 167, 0.5);
-    padding: 2em;
+    padding: 0.5em;
     border-radius: 8px;
 }
 .contact-box h2 {
@@ -231,5 +231,8 @@ label {
     }
     .portfolio-element ul {
         margin: 2em 3em 0;
+    }
+    .contact-box {
+        padding: 2em;
     }
 }
