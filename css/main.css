@@ -219,6 +219,11 @@ label {
     .divider {
         height: 160px;
     }
+    .navbar-default .navbar-nav>li>a {
+       font-size: 1.5em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 @media screen and (min-width: 767px) {
     h1 {
