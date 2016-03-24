@@ -225,6 +225,9 @@ label {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    #contact {
+        background: url(/portfolio/images/contact-photo-small.jpg) no-repeat;
+    }
 }
 @media screen and (min-width: 767px) {
     h1 {
