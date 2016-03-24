@@ -113,6 +113,7 @@ p {
 #portfolio .portfolio-image {
     background-size: cover;
     height: 300px;
+    cursor: pointer;
 }
 .item-description {
     background-color: #0097A7;
