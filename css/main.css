@@ -139,22 +139,22 @@ p {
     padding-top: 3em;
 }
 #procreative {
-    background: url(/images/procreative-big.png) no-repeat;
+    background: url(/portfolio/images/procreative-big.png) no-repeat;
 }
 #costa {
-    background: url(/images/costa-big.png) no-repeat;
+    background: url(/portfolio/images/costa-big.png) no-repeat;
 }
 #thedoer {
-    background: url(/images/thedoer-big.png) no-repeat;
+    background: url(/portfolio/images/thedoer-big.png) no-repeat;
 }
 #tribute {
-    background: url(/images/tribute-big.png) no-repeat;
+    background: url(/portfolio/images/tribute-big.png) no-repeat;
 }
 #portfolio-fcc {
-    background: url(/images/portfolio-big.png) no-repeat;
+    background: url(/portfolio/images/portfolio-big.png) no-repeat;
 }
 #contact {
-    background: url(/images/contact-photo.jpg) no-repeat;
+    background: url(/portfolio/images/contact-photo.jpg) no-repeat;
     background-size: cover;
     background-position: 100% 0;
     background-color: #212121;
@@ -163,7 +163,7 @@ footer p {
     color: #FAFAFA;
     position: absolute;
     bottom: 50px;
-    right: 15px;
+    right: 25px;
 }
 #social a.btn-default {
    border-color: transparent;
