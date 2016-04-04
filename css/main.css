@@ -154,6 +154,12 @@ p {
 #portfolio-fcc {
     background: url(/portfolio/images/portfolio-big.png) no-repeat;
 }
+#quote-machine {
+    background: url(/portfolio/images/quote-machine.png) no-repeat;
+}
+#sheep-weather-app {
+    background: url(/portfolio/images/sheep-weather-app.png) no-repeat;
+}
 #contact {
     background: url(/portfolio/images/contact-photo.jpg) no-repeat;
     background-size: cover;
