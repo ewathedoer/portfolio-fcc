@@ -155,10 +155,10 @@ p {
     background: url(/portfolio/images/portfolio-big.png) no-repeat;
 }
 #quote-machine {
-    background: url(/portfolio/images/quote-machine.png) no-repeat;
+    background: url(/portfolio/images/quote-machine.png) center top no-repeat;
 }
 #sheep-weather-app {
-    background: url(/portfolio/images/sheep-weather-app.png) no-repeat;
+    background: url(/portfolio/images/sheep-weather-app.png) center top no-repeat;
 }
 #wiki-viewer {
     background: url(/portfolio/images/wiki-viewer.png) center top no-repeat;
