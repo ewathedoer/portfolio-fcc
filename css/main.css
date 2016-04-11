@@ -160,6 +160,10 @@ p {
 #sheep-weather-app {
     background: url(/portfolio/images/sheep-weather-app.png) no-repeat;
 }
+#wiki-viewer {
+    background: url(/portfolio/images/wiki-viewer.png) no-repeat;
+}
+
 #contact {
     background: url(/portfolio/images/contact-photo.jpg) no-repeat;
     background-size: cover;
@@ -235,6 +239,10 @@ label {
         background: url(/portfolio/images/contact-photo-small.jpg) no-repeat;
         background-size: cover;
         background-position: center right;
+    }
+    .item-description {
+        height: auto;
+        padding-bottom: 2em;
     }
 }
 @media screen and (min-width: 767px) {

@@ -26,3 +26,6 @@ $( "#quote-machine" ).click(function() {
 $( "#sheep-weather-app" ).click(function() {
     window.location.href="http://s.codepen.io/thedoer/debug/vGeYZp";
 });
+$( "#wiki-viewer" ).click(function() {
+    window.location.href="http://s.codepen.io/thedoer/debug/EKbrpO";
+});
