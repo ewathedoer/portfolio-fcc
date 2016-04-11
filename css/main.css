@@ -161,7 +161,7 @@ p {
     background: url(/portfolio/images/sheep-weather-app.png) no-repeat;
 }
 #wiki-viewer {
-    background: url(/portfolio/images/wiki-viewer.png) no-repeat;
+    background: url(/portfolio/images/wiki-viewer.png) center center no-repeat;
 }
 
 #contact {
