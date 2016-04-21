@@ -17,7 +17,7 @@ $( "#thedoer" ).click(function() {
 $( "#tribute" ).click(function() {
     window.location.href="http://s.codepen.io/thedoer/debug/pybKVp";
 });
-$( "#portfolio" ).click(function() {
+$( "#portfolio-fcc" ).click(function() {
     window.location.href="#about";
 });
 $( "#quote-machine" ).click(function() {
