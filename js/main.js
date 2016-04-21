@@ -29,3 +29,6 @@ $( "#sheep-weather-app" ).click(function() {
 $( "#wiki-viewer" ).click(function() {
     window.location.href="http://s.codepen.io/thedoer/debug/EKbrpO";
 });
+$( "#game-watcher" ).click(function() {
+    window.location.href="http://s.codepen.io/thedoer/debug/GZxdQO";
+});

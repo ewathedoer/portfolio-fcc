@@ -163,6 +163,9 @@ p {
 #wiki-viewer {
     background: url(/portfolio/images/wiki-viewer.png) center top no-repeat;
 }
+#game-watcher {
+    background: url(/portfolio/images/game-watcher.png) no-repeat;
+}
 
 #contact {
     background: url(/portfolio/images/contact-photo.jpg) no-repeat;
