@@ -167,7 +167,7 @@ p {
     background: url(/portfolio/images/game-watcher.png) no-repeat;
 }
 #js-calculator {
-    background: url(/portfolio/images/js-calculator.png) no-repeat;
+    background: url(/portfolio/images/js-calculator.png) center no-repeat;
 }
 
 #contact {
