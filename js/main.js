@@ -32,3 +32,6 @@ $( "#wiki-viewer" ).click(function() {
 $( "#game-watcher" ).click(function() {
     window.location.href="http://s.codepen.io/thedoer/debug/GZxdQO";
 });
+$( "#js-calculator" ).click(function() {
+    window.location.href="http://s.codepen.io/thedoer/debug/RaEOme";
+});
