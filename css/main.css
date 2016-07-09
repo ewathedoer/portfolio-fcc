@@ -169,6 +169,9 @@ p {
 #js-calculator {
     background: url(/portfolio/images/js-calculator.png) center no-repeat;
 }
+#tictactoe {
+    background: url(/portfolio/images/tictactoe.png) no-repeat;
+}
 
 #contact {
     background: url(/portfolio/images/contact-photo.jpg) no-repeat;
