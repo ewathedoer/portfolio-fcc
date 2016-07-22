@@ -172,6 +172,11 @@ p {
 #tictactoe {
     background: url(/portfolio/images/tictactoe.png) no-repeat;
 }
+#pomodoro-clock {
+    background: url(/portfolio/images/pomodor-clock.png) no-repeat;
+}
+
+
 
 #contact {
     background: url(/portfolio/images/contact-photo.jpg) no-repeat;

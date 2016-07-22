@@ -38,3 +38,6 @@ $( "#js-calculator" ).click(function() {
 $( "#tictactoe" ).click(function() {
     window.location.href="http://theonewhodo.es/tictactoe/";
 });
+$( "#pomodoro-clock" ).click(function() {
+    window.location.href="http://theonewhodo.es/pomodoro/";
+});
