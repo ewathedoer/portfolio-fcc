@@ -85,7 +85,7 @@ h3 {
     color: #727272;
     height: 200px;
     font-size: 2em;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 .divider > div {
     height: 100%;
@@ -179,9 +179,6 @@ p {
 
 
 #contact {
-    background: url(/portfolio/images/contact-photo.jpg) no-repeat;
-    background-size: cover;
-    background-position: 100% 0;
     background-color: #212121;
 }
 footer p {
@@ -226,7 +223,8 @@ label {
 .contact-box {
     background-color: rgba(0, 151, 167, 0.5);
     padding: 0.5em;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 2em;
 }
 .contact-box h2 {
     color: #FFF;
@@ -244,15 +242,15 @@ label {
     .divider {
         height: 160px;
     }
+    .top-divider {
+        height: 200px;
+        padding-top: 2em;
+        margin-top: 0;
+    }
     .navbar-default .navbar-nav>li>a {
        font-size: 1.5em;
         padding-top: 20px;
         padding-bottom: 20px;
-    }
-    #contact {
-        background: url(/portfolio/images/contact-photo-small.jpg) no-repeat;
-        background-size: cover;
-        background-position: center right;
     }
     .item-description {
         height: auto;
@@ -261,7 +259,7 @@ label {
 }
 @media screen and (min-width: 767px) {
     h1 {
-        font-size: 3.7em;
+        font-size: 2.7em;
     }
     .portfolio-element ul {
         margin: 2em 3em 0;
