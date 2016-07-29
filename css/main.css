@@ -173,7 +173,7 @@ p {
     background: url(/portfolio/images/tictactoe.png) no-repeat;
 }
 #pomodoro-clock {
-    background: url(/portfolio/images/pomodoro-clock.png) no-repeat;
+    background: url(/portfolio/images/pomodoro-clock.png) center top no-repeat;
 }
 
 
@@ -256,7 +256,7 @@ label {
     .item-description {
         height: auto;
         padding-bottom: 2em;
-    }
+    }  
 }
 @media screen and (min-width: 767px) {
     h1 {
@@ -267,5 +267,13 @@ label {
     }
     .contact-box {
         padding: 2em;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #portfolio > :first-child {
+        padding-top: 0em;
+    } 
+    .divider {
+      margin-top: 1em;
     }
 }
