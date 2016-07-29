@@ -222,12 +222,13 @@ label {
 }
 .contact-box {
     background-color: rgba(0, 151, 167, 0.5);
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 0 0 8px 8px;
     margin-bottom: 2em;
 }
 .contact-box h2 {
     color: #FFF;
+    margin-top: 0;
 }
 .contact-box button {
     font-size: 2em;
