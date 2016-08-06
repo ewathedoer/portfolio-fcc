@@ -155,7 +155,7 @@ p {
     background: url(/portfolio/images/portfolio-big.png) no-repeat;
 }
 #quote-machine {
-    background: url(/portfolio/images/quote-machine.png) center top no-repeat;
+    background: url(/portfolio/images/quote-machine.png) center center no-repeat;
 }
 #sheep-weather-app {
     background: url(/portfolio/images/sheep-weather-app.png) center top no-repeat;
@@ -176,7 +176,7 @@ p {
     background: url(/portfolio/images/pomodoro-clock.png) center top no-repeat;
 }
 #simon-game {
-    background: url(/portfolio/images/simon-game.png) center top no-repeat;
+    background: url(/portfolio/images/simon-game.png) center center no-repeat;
 }
 
 
