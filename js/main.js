@@ -41,3 +41,6 @@ $( "#tictactoe" ).click(function() {
 $( "#pomodoro-clock" ).click(function() {
     window.location.href="http://theonewhodo.es/pomodoro/";
 });
+$( "#simon-game" ).click(function() {
+    window.location.href="http://theonewhodo.es/simon-game/";
+});
