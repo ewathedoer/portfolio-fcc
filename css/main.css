@@ -20,6 +20,7 @@ Custom color palette:
     display: table-cell;
     vertical-align: middle;
     position: relative;
+    width: 100vw;
 }
 .parent {
     display: table;
